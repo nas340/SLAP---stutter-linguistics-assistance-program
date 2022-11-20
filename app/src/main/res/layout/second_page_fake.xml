@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Set Preferencs"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/word1"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:text="Dog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Heading" />
+
+    <Button
+        android:id="@+id/buttonEW1"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:text="easy"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/word1"
+        app:layout_constraintStart_toEndOf="@+id/word1" />
+
+    <Button
+        android:id="@+id/buttonDW1"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:text="diff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonEW1"
+        app:layout_constraintStart_toEndOf="@+id/buttonEW1" />
+
+    <TextView
+        android:id="@+id/word2"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:text="carrot"
+        app:layout_constraintStart_toStartOf="@+id/word1"
+        app:layout_constraintTop_toBottomOf="@+id/word1" />
+
+    <Button
+        android:id="@+id/buttonEW2"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:text="easy"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/word2"
+        app:layout_constraintStart_toEndOf="@+id/word2" />
+
+    <Button
+        android:id="@+id/buttonDW2"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:text="diff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonEW2"
+        app:layout_constraintStart_toEndOf="@+id/buttonEW2" />
+
+    <TextView
+        android:id="@+id/word3"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="Pink"
+        app:layout_constraintStart_toStartOf="@+id/word2"
+        app:layout_constraintTop_toBottomOf="@+id/word2" />
+
+    <Button
+        android:id="@+id/buttonEW3"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:text="easy"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/word3"
+        app:layout_constraintStart_toEndOf="@+id/word3" />
+
+    <Button
+        android:id="@+id/buttonDW3"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:text="diff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonEW3"
+        app:layout_constraintStart_toEndOf="@+id/buttonEW3" />
+
+    <TextView
+        android:id="@+id/word4"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="Yellow"
+        app:layout_constraintStart_toStartOf="@+id/word3"
+        app:layout_constraintTop_toBottomOf="@+id/word3" />
+
+    <Button
+        android:id="@+id/buttonEW4"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:text="easy"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/word4"
+        app:layout_constraintStart_toEndOf="@+id/word4" />
+
+    <Button
+        android:id="@+id/buttonBW4"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:text="diff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonEW4"
+        app:layout_constraintStart_toEndOf="@+id/buttonEW4" />
+
+    <TextView
+        android:id="@+id/word5"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="Cartoon"
+        app:layout_constraintStart_toStartOf="@+id/word4"
+        app:layout_constraintTop_toBottomOf="@+id/word4" />
+
+    <Button
+        android:id="@+id/buttonEW5"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:text="easy"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/word5"
+        app:layout_constraintStart_toEndOf="@+id/word5" />
+
+    <Button
+        android:id="@+id/buttonBD5"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:text="diff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonEW5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEW5" />
+
+    <TextView
+        android:id="@+id/easyH"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="32dp"
+        android:text="EasyWords"
+        app:layout_constraintStart_toStartOf="@+id/word5"
+        app:layout_constraintTop_toBottomOf="@+id/word5" />
+
+    <TextView
+        android:id="@+id/diffH"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="80dp"
+        android:text="DiffWords"
+        app:layout_constraintBaseline_toBaselineOf="@+id/easyH"
+        app:layout_constraintStart_toEndOf="@+id/easyH" />
+
+    <TextView
+        android:id="@+id/easyV"
+        android:layout_width="100dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/easyH"
+        app:layout_constraintTop_toBottomOf="@+id/easyH" />
+
+    <TextView
+        android:id="@+id/diffV"
+        android:layout_width="100dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="52dp"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBaselineOf="@+id/easyV"
+        app:layout_constraintStart_toEndOf="@+id/easyV" />
+
+    <Button
+        android:id="@+id/buttonNextPage"
+        android:layout_width="68dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/diffV"
+        app:layout_constraintTop_toBottomOf="@+id/diffV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
